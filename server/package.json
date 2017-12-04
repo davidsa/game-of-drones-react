@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

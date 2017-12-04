@@ -1,0 +1,12 @@
+{
+  "name": "game-of-drones-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "David Sttivend A",
+  "license": "MIT",
+  "scripts": {
+    "serve":"cd client && npm run serve"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
