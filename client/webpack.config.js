@@ -6,7 +6,7 @@ const webpack = require('webpack');
 module.exports = {
     entry: [
         'react-hot-loader/patch',
-        './index.js'
+        './index.jsx'
     ],
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -15,7 +15,8 @@ module.exports = {
     },
     devtool: 'inline-source-map',
     devServer: {
-        hot: true
+        hot: true,
+        historyApiFallback: true
     },
     resolve: {
         extensions: ['.js', '.jsx'],
@@ -34,6 +35,13 @@ module.exports = {
                     'css-loader',
                     'stylus-loader'
                 ],
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
             }
         ]
     },

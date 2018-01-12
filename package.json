@@ -5,7 +5,7 @@
   "author": "David Sttivend A",
   "license": "MIT",
   "scripts": {
-    "serve":"cd client && npm run serve"
+    "serve": "cd client && npm run serve"
   },
   "devDependencies": {},
   "dependencies": {}

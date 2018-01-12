@@ -1,4 +1,5 @@
-import "Assets/main";
+import "Assets/main.styl";
+import "antd/dist/antd.min.css"
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {AppContainer} from 'react-hot-loader';
